@@ -1,16 +1,21 @@
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,18,22&height=220&section=header&text=OpenFlow&fontSize=70&fontColor=ff5c5c&fontAlignY=38&desc=Local%20AI%20Voice-to-Text%20Utility%20for%20macOS&descSize=18&descColor=ffffff99&animation=fadeIn&fontAlign=50">
-    <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,18,22&height=220&section=header&text=OpenFlow&fontSize=70&fontColor=ff5c5c&fontAlignY=38&desc=Local%20AI%20Voice-to-Text%20Utility%20for%20macOS&descSize=18&descColor=ffffff99&animation=fadeIn&fontAlign=50" width="100%">
-  </picture>
+  <img src="https://raw.githubusercontent.com/outflex/openflow/main/app-icon.png" width="96" height="96" style="border-radius: 22px; margin-bottom: 12px;" alt="OpenFlow Logo">
+</p>
+
+<h1 align="center" style="font-weight: 800; letter-spacing: -0.025em;">OpenFlow</h1>
+
+<p align="center">
+  <b style="color: #94a3b8;">Локальный голосовой ассистент для мгновенного ввода текста с фокусом на приватность</b>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Version-v0.1.0--beta-ff5c5c?style=for-the-badge&logo=appveyor&logoColor=white" alt="Version">
-  <img src="https://img.shields.io/badge/Platform-macOS-lightgrey?style=for-the-badge&logo=apple&logoColor=white" alt="Platform">
-  <img src="https://img.shields.io/badge/Engine-Whisper.cpp-blueviolet?style=for-the-badge&logo=rust&logoColor=white" alt="Engine">
-  <img src="https://img.shields.io/badge/Stack-Tauri%20v2%20%7C%20React-blue?style=for-the-badge&logo=react&logoColor=white" alt="Stack">
+  <a href="https://github.com/outflex/openflow/releases/tag/v0.1.0-beta"><img src="https://img.shields.io/badge/VERSION-v0.1.0--beta-f43f5e?style=for-the-badge&logoColor=white" alt="Version"></a>
+  <img src="https://img.shields.io/badge/PLATFORM-macOS-1e1e24?style=for-the-badge&logo=apple&logoColor=white" alt="Platform">
+  <img src="https://img.shields.io/badge/ENGINE-Whisper.cpp-7c3aed?style=for-the-badge&logo=rust&logoColor=white" alt="Engine">
+  <img src="https://img.shields.io/badge/STACK-Tauri_v2_%7C_React-0ea5e9?style=for-the-badge&logo=react&logoColor=white" alt="Stack">
 </p>
+
+<hr style="border: none; height: 1px; background: #ffffff10; margin: 30px 0;">
 
 # OpenFlow
 
