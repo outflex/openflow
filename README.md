@@ -1,3 +1,17 @@
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,18,22&height=220&section=header&text=OpenFlow&fontSize=70&fontColor=ff5c5c&fontAlignY=38&desc=Local%20AI%20Voice-to-Text%20Utility%20for%20macOS&descSize=18&descColor=ffffff99&animation=fadeIn&fontAlign=50">
+    <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,18,22&height=220&section=header&text=OpenFlow&fontSize=70&fontColor=ff5c5c&fontAlignY=38&desc=Local%20AI%20Voice-to-Text%20Utility%20for%20macOS&descSize=18&descColor=ffffff99&animation=fadeIn&fontAlign=50" width="100%">
+  </picture>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Version-v0.1.0--beta-ff5c5c?style=for-the-badge&logo=appveyor&logoColor=white" alt="Version">
+  <img src="https://img.shields.io/badge/Platform-macOS-lightgrey?style=for-the-badge&logo=apple&logoColor=white" alt="Platform">
+  <img src="https://img.shields.io/badge/Engine-Whisper.cpp-blueviolet?style=for-the-badge&logo=rust&logoColor=white" alt="Engine">
+  <img src="https://img.shields.io/badge/Stack-Tauri%20v2%20%7C%20React-blue?style=for-the-badge&logo=react&logoColor=white" alt="Stack">
+</p>
+
 # OpenFlow
 
 Локальное десктопное приложение для преобразования речи в текст с фокусом на приватность и мгновенным вводом под курсор. 
