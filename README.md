@@ -1,11 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/outflex/openflow/main/app-icon.png" width="96" height="96" style="border-radius: 22px; margin-bottom: 12px;" alt="OpenFlow Logo">
-</p>
-
-<h1 align="center" style="font-weight: 800; letter-spacing: -0.025em;">OpenFlow</h1>
-
-<p align="center">
-  <b style="color: #94a3b8;">Локальный голосовой ассистент для мгновенного ввода текста с фокусом на приватность</b>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:121216,50:f43f5e,100:fb923c&height=220&section=header&text=OpenFlow&fontSize=50&fontColor=ffffff&fontAlignY=38&desc=Local%20Voice-to-Text%20Utility&descSize=15&descColor=ffffff99&animation=fadeIn&fontAlign=62&customColorList=121216,f43f5e,fb923c" width="100%">
 </p>
 
 <p align="center">
