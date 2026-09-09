@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <!-- Фоновый темный градиент плашки -->
+    <linearGradient id="of_bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#24242C" />
+      <stop offset="50%" stop-color="#16161B" />
+      <stop offset="100%" stop-color="#0B0B0E" />
+    </linearGradient>
+
+    <!-- Градиент неоновой ленты -->
+    <linearGradient id="of_ribbon" x1="0%" y1="30%" x2="100%" y2="70%">
+      <stop offset="0%" stop-color="#FB923C" />
+      <stop offset="60%" stop-color="#F43F5E" />
+      <stop offset="100%" stop-color="#FDA4AF" />
+    </linearGradient>
+
+    <!-- Тонкая фаска границы -->
+    <linearGradient id="of_border" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.14" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.02" />
+    </linearGradient>
+
+    <!-- Неоновое свечение -->
+    <filter id="of_glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="14" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Прозрачность вокруг: сам rect скруглен и центрирован -->
+  <rect x="36" y="36" width="440" height="440" rx="98" fill="url(#of_bg)" stroke="url(#of_border)" stroke-width="3" />
+
+  <!-- Свечение ленты -->
+  <path d="M 125 256 C 168 256 178 158 216 158 C 254 158 259 354 302 354 C 342 354 352 256 387 256" 
+        fill="none" stroke="url(#of_ribbon)" stroke-width="32" stroke-linecap="round" stroke-linejoin="round"
+        opacity="0.4" filter="url(#of_glow)" />
+
+  <!-- Основная линия волны -->
+  <path d="M 125 256 C 168 256 178 158 216 158 C 254 158 259 354 302 354 C 342 354 352 256 387 256" 
+        fill="none" stroke="url(#of_ribbon)" stroke-width="32" stroke-linecap="round" stroke-linejoin="round" />
+
+  <!-- Стартовая точка захвата звука -->
+  <circle cx="125" cy="256" r="16" fill="#FB923C" />
+
+  <!-- Финишная точка вставки -->
+  <circle cx="387" cy="256" r="18" fill="#FFFFFF" />
+  <circle cx="387" cy="256" r="7.5" fill="#F43F5E" />
+</svg>
